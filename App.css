@@ -1,0 +1,64 @@
+/* App.css */
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  color: #4CAF50;
+}
+
+.form {
+  margin-bottom: 20px;
+}
+
+.form input {
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #45a049;
+}
+
+.entries {
+  list-style-type: none;
+  padding: 0;
+}
+
+.entries li {
+  background-color: #f9f9f9;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.entries button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.entries button:hover {
+  background-color: #ff3333;
+}
